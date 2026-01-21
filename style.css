@@ -236,7 +236,6 @@ body{color:#111}
 .contact-form input,.contact-form textarea{padding:12px;border-radius:8px;border:1px solid #ccc}
 
 @media (max-width:600px){
-
   .hero-visual{
     height:auto;
     flex-direction:column;
@@ -257,9 +256,8 @@ body{color:#111}
   .card{
     width:95px;
     height:95px;
-    animation:none; 
+    animation:none; /* remove float for stability */
   }
-
   .skills{
     padding:70px 6%;
   }
@@ -271,62 +269,7 @@ body{color:#111}
   .skill-card{
     height:150px;
   }
-
   .skill-card:hover{
     transform:none;
-  }
-
-
-  .header{
-    height:64px;
-  }
-
-  body{
-    padding-top:64px; 
-  }
-
-  .nav{
-    height:64px;
-    padding:0 14px;
-  }
-
-  .logo{
-    font-size:18px;
-    letter-spacing:0.5px;
-  }
-
-  .menu{
-    display:block;
-    font-size:24px;
-    cursor:pointer;
-    z-index:1200;
-  }
-
-  .nav-links{
-    position:fixed;
-    top:64px;
-    right:-100%;
-    width:100%;
-    height:calc(100vh - 64px);
-    background:#ffffff;
-    flex-direction:column;
-    align-items:flex-start;
-    padding:30px 22px;
-    gap:22px;
-    box-shadow:-10px 0 30px rgba(0,0,0,0.15);
-    transition:right 0.35s ease;
-  }
-
-  .nav-links.active{
-    right:0;
-  }
-
-  .nav-links li{
-    margin-left:0;
-  }
-
-  .nav-links a{
-    font-size:16px;
-    font-weight:500;
   }
 }
