@@ -14,7 +14,7 @@ body.menu-open{
 .header.hide{
   transform: translateY(-100%);
 }
-.nav{display:flex;align-items:center; margin-left:50px; width: 100%;}
+.nav{display:flex;align-items:center; margin-left:50px; }
 .nav-container{
   max-width:1200px;
   margin:auto;
@@ -513,5 +513,6 @@ body.menu-open{
     transform:none !important;
   }
 }
+
 
 
